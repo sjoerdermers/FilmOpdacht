@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+#navigatie {
+  margin-top: 30px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+#mijnUl {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+li {
+  border: 3px solid black;
+  width: fit-content;
+}
